@@ -940,3 +940,113 @@ border-radius:20px;
 box-shadow:0 20px 40px rgba(0,0,0,0.1);
 
 }
+
+
+
+
+@media (max-width: 900px){
+
+.approach-grid{
+
+grid-template-columns:1fr 1fr;
+
+}
+
+}
+
+@media (max-width: 600px){
+
+.approach-grid{
+
+grid-template-columns:1fr;
+gap:18px;
+
+}
+
+.approach-card{
+
+padding:24px;
+
+}
+
+.approach-card h3{
+
+font-size:22px;
+
+}
+
+}
+
+
+
+
+@media (max-width: 900px){
+
+.office-gallery{
+
+grid-template-columns:1fr 1fr;
+
+}
+
+}
+
+@media (max-width: 600px){
+
+.office-gallery{
+
+grid-template-columns:1fr;
+gap:16px;
+
+}
+
+.office-gallery img{
+
+height:260px;
+
+}
+
+}
+
+
+
+
+@media (max-width: 900px){
+
+.location-grid{
+
+grid-template-columns:1fr;
+gap:40px;
+
+}
+
+.map iframe{
+
+height:360px;
+
+}
+
+}
+
+@media (max-width: 600px){
+
+.location-info h2{
+
+font-size:28px;
+
+}
+
+.map iframe{
+
+height:300px;
+
+}
+.section{
+
+padding:70px 0;
+
+}
+}
+
+
+
+
